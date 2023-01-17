@@ -80,7 +80,7 @@ while True:
     sc.blit(bg, (0, 0))
     sc.blit(game_sc, (20, 20))
     game_sc.blit(game_bg, (0, 0))
-    # delay for full lines
+
     for i in range(lines):
         pygame.time.wait(200)
     # controle
